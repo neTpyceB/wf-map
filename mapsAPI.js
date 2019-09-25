@@ -9,7 +9,7 @@ function initialize() {
 
 window.eqfeed_callback = function(data) {
   // Change this for GitHub Enterprise Server to e.g. `github.example.com/avatars`
-  var hostname = 'github.com/avatars';
+  var hostname = 'avatars3.githubusercontent.com';
   
   var gm = google.maps,
     mapSize = new gm.Size(256, 256), // original size, fallback for space invador images
